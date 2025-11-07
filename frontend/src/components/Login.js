@@ -99,7 +99,7 @@ function Login({ onLogin }) {
       formData.append('username', username);
       formData.append('password', password);
 
-      const response = await axios.post('/api/token', formData);
+      const response = await axios.post(`${process.env.REACT_APP_API_URL || '/api'}/token`, formData);
       onLogin(response.data.access_token);
     } catch (err) {
       setError('Invalid credentials');
