@@ -18,5 +18,6 @@
     { "handle": "filesystem" },
     { "src": "/static/(.*)", "dest": "/frontend/build/static/$1" },
     { "src": "/(.*)", "dest": "/frontend/build/index.html" }
-  ]
+  ],
+  "buildCommand": "pip install -r requirements.txt && cd frontend && npm install && npm run build"
 }
