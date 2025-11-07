@@ -97,7 +97,7 @@ function Dashboard({ token, onLogout }) {
     formData.append('file', file);
 
     try {
-      const response = await axios.post('http://localhost:8000/analyze', formData, {
+      const response = await axios.post('/api/analyze', formData, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       setResults(response.data);
