@@ -1,8 +1,8 @@
-# Sentiment Analysis Dashboard 🎯
+# Sentiment Analysis Dashboard 
 
 An interactive full-stack application that analyzes sentiment from CSV data and presents it through a modern dashboard interface.
 
-## 🌟 Key Features
+##  Key Features
 
 - Secure login system with JWT authentication
 - Real-time sentiment analysis of CSV data
@@ -28,7 +28,7 @@ An interactive full-stack application that analyzes sentiment from CSV data and 
 - JWT (authentication)
 - CORS (security)
 
-## 📂 Project Structure
+##  Project Structure
 
 ## Installation
 
